@@ -1,0 +1,26 @@
+body{
+	background-size: cover;
+}
+
+button{
+	    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: green;
+    color: snow;
+    text-align: left;
+}
+.mytext{
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.active{
+	height: unset;
+	padding: 20px;
+    transition: all .6s linear;
+}
